@@ -24,11 +24,11 @@ public class Main {
      * 
      * @return Jediná inštancia triedy Main.
      */
-    public static Main getInstance() {
+    public static void main(String[] args) {
         if (instancia == null) {
             instancia = new Main();
         }
-        return instancia;
+        //return instancia;
     }
 
 }
